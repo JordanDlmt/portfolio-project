@@ -1,5 +1,46 @@
+:root {
+  --branding-color: #d37cda;
+  --primary-color: black;
+  --secondary-color: #ffd5f6;
+  --default-font: "Quicksand", sans-serif;
+  --head-border: 4px solid #ffd5f6;
+  --head-border-radius: 20px;
+}
 body {
-  font-family: "Quicksand", sans-serif;
-  background-color: rgb(251, 199, 208);
-  color: rgb(122, 91, 138);
+  background-color: var(--secondary-color);
+  font: var(--default-font);
+  background-image: url("/images/backgroundimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  font-family: var(--default-font);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 210px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h1 {
+  font-size: 96px;
+  background-color: var(--secondary-color);
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+}
+.hero h2 {
+  font-size: 30px;
+  background-color: #ffd5f6;
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
