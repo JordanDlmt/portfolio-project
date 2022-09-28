@@ -5,13 +5,31 @@
   --default-font: "Quicksand", sans-serif;
   --head-border: 4px solid #ffd5f6;
   --head-border-radius: 20px;
+  --image-border: 4px solid #ffd5f6;
 }
 body {
+  text-align: center;
+  justify-content: center;
+  font-family: var(--default-font);
   background-color: var(--secondary-color);
   font: var(--default-font);
   background-image: url("/images/backgroundimage.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  display: block;
+}
+.break {
+  margin-bottom: 150px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.content {
+  display: block;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  font-family: var(--default-font);
 }
 .hero {
   font-family: var(--default-font);
@@ -23,18 +41,24 @@ body {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  text-align: center;
 }
 .hero h1 {
   font-size: 96px;
-  background-color: var(--secondary-color);
+  background-color: #ffd5f6b3;
   border: var(--head-border);
   border-radius: var(--head-border-radius);
 }
 .hero h2 {
   font-size: 30px;
-  background-color: #ffd5f6;
+  background-color: #ffd5f6b3;
   border: var(--head-border);
   border-radius: var(--head-border-radius);
+}
+#headingNotes {
+  color: #ce9bc3;
+  font-size: 25px;
+  font-weight: 500;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -43,4 +67,19 @@ body {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  margin: 22px 22px;
+}
+.indexphoto {
+  background-color: #ffd5f6b3;
+  border: var(--image-border);
+  border-radius: var(--head-border-radius);
+  width: 450px;
+}
+.weathercontainer,
+.landingcontainer,
+.break {
+  background-color: #ffd5f6b3;
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+  padding: 22px;
 }
