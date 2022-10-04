@@ -50,6 +50,9 @@ body {
   border-radius: var(--head-border-radius);
   padding: 210px 20px;
 }
+.content {
+  margin-bottom: 50px;
+}
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -79,7 +82,7 @@ body {
 }
 .aboutHero h3 {
   font-family: var(--default-font);
-  font-size: 25px;
+  font-size: 18px;
 }
 .credits {
   margin-top: 85px;
@@ -177,4 +180,23 @@ body {
   border: var(--head-border);
   border-radius: var(--head-border-radius);
   padding: 22px;
+}
+.socialLinks {
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 28px;
+  margin-bottom: 35px;
+}
+.socialLinks a {
+  text-decoration: none;
+  color: var(--branding-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  background-color: #ffd5f6;
+  transition: all 150ms ease-in-out;
+}
+.socialLinks a:hover {
+  color: #653568;
 }
