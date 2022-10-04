@@ -216,14 +216,16 @@ body {
   .sheCodes,
   .ordainment,
   .esto {
-    width: 400px;
+    display: block;
     text-align: center;
-    margin: 10px;
+    margin: 10px 10px;
+    padding-left: 15px;
   }
   .hero h1 {
     font-size: 55px;
   }
-  .socialLinks {
-    margin: 35px;
+  .socialLinks a {
+    display: inline;
+    margin-left: 1px;
   }
 }
