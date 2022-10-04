@@ -218,6 +218,12 @@ body {
   .esto {
     width: 400px;
     text-align: center;
-    margin: 10px 10px;
+    margin: 10px;
+  }
+  .hero h1 {
+    font-size: 55px;
+  }
+  .socialLinks {
+    margin: 35px;
   }
 }
