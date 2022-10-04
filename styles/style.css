@@ -86,6 +86,7 @@ body {
 }
 .credits {
   margin-top: 85px;
+  display: block;
 }
 #credits {
   font-size: 48px;
@@ -99,8 +100,8 @@ body {
   background-color: #ffd5f6;
   border: var(--head-border);
   border-radius: var(--head-border-radius);
-  margin-left: 375px;
-  margin-right: 375px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 50px;
 }
 .projects {
@@ -210,4 +211,13 @@ body {
 }
 .close a:hover {
   color: var(--secondary-color);
+}
+@media (max-width: 576px) {
+  .sheCodes,
+  .ordainment,
+  .esto {
+    width: 400px;
+    text-align: center;
+    margin: 10px 10px;
+  }
 }
