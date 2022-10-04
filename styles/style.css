@@ -200,3 +200,14 @@ body {
 .socialLinks a:hover {
   color: #653568;
 }
+.close {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+.close a {
+  text-decoration: none;
+  color: #653568;
+}
+.close a:hover {
+  color: var(--secondary-color);
+}
