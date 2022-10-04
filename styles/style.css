@@ -93,6 +93,31 @@ body {
   margin-right: 375px;
   margin-bottom: 50px;
 }
+.projects {
+  font-size: 55px;
+  font-family: var(--default-font);
+  padding: 210px 20px;
+}
+.projects h1 {
+  font-family: var(--default-font);
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+  background-color: #ffd5f6b3;
+  margin-bottom: 100px;
+}
+.projects h2 {
+  font-size: 55px;
+  padding-bottom: 35px;
+}
+.projectLinks {
+  padding-bottom: 45px;
+}
+.description {
+  font-size: 18px;
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+  background-color: #ffd5f6b3;
+}
 #headingNotes {
   color: #ce9bc3;
   font-size: 25px;
