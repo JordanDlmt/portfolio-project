@@ -19,6 +19,10 @@ body {
   margin: 0;
   display: block;
 }
+.navbar-brand,
+.nav-item {
+  font-family: var(--default-font);
+}
 .break {
   margin-bottom: 150px;
   font-size: 30px;
@@ -117,6 +121,28 @@ body {
   border: var(--head-border);
   border-radius: var(--head-border-radius);
   background-color: #ffd5f6b3;
+}
+.contactPage {
+  font-family: var(--default-font);
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+  background-color: #ffd5f6b3;
+  margin-top: 65px;
+  padding-bottom: 45px;
+}
+.contact {
+  font-size: 18px;
+}
+.contactPage h1 {
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+.contact ul {
+  list-style: none;
+}
+.contact li {
+  padding-bottom: 25px;
+  margin-bottom: 35px;
 }
 #headingNotes {
   color: #ce9bc3;
