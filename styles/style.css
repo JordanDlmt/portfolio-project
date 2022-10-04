@@ -37,6 +37,12 @@ body {
   text-align: center;
   padding: 210px 20px;
 }
+.aboutHero {
+  background-color: #ffd5f6b3;
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+  padding: 210px 20px;
+}
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -45,15 +51,47 @@ body {
 }
 .hero h1 {
   font-size: 96px;
+  font-family: var(--default-font);
   background-color: #ffd5f6b3;
   border: var(--head-border);
   border-radius: var(--head-border-radius);
 }
 .hero h2 {
   font-size: 30px;
+  font-family: var(--default-font);
   background-color: #ffd5f6b3;
   border: var(--head-border);
   border-radius: var(--head-border-radius);
+}
+.aboutHero {
+  font-size: 96px;
+  font-family: var(--default-font);
+}
+.aboutHero h2 {
+  padding-bottom: 55px;
+}
+.aboutHero h3 {
+  font-family: var(--default-font);
+  font-size: 25px;
+}
+.credits {
+  margin-top: 85px;
+}
+#credits {
+  font-size: 48px;
+  margin-bottom: 35px;
+}
+.sheCodes,
+.ordainment,
+.esto {
+  text-align: center;
+  font-size: 20px;
+  background-color: #ffd5f6;
+  border: var(--head-border);
+  border-radius: var(--head-border-radius);
+  margin-left: 375px;
+  margin-right: 375px;
+  margin-bottom: 50px;
 }
 #headingNotes {
   color: #ce9bc3;
@@ -74,6 +112,9 @@ body {
   border: var(--image-border);
   border-radius: var(--head-border-radius);
   width: 450px;
+}
+.portfolioPhoto {
+  width: 300px;
 }
 .weathercontainer,
 .landingcontainer,
